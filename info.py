@@ -52,7 +52,7 @@ BUTTON_LOCK = is_enabled(environ.get("BUTTON_LOCK", "True"), True)
 RemoveBG_API = environ.get("RemoveBG_API", "")
 
 # url shortner
-SHORT_URL = environ.get("SHORT_URL", "shareus.io")
+SHORT_URL = environ.get("SHORT_URL", "https://shareus.io")
 SHORT_API = environ.get("SHORT_API", "YvxXdraQ4JPSCjXlcOU276OCUsC2")
 
 # Others
